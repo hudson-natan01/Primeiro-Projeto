@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+}
+
+.caixa-mae{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-principal{
+   width: 30%;
+   margin-left: 100px;
+  
+}
+
+.logo{
+    height: 98px;
+    align-items: end;  
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(165, 2, 2);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(119, 5, 5);
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.kratos-e-atreus{
+    margin-right: 100px;
+}
+
+.fundo{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.kratos{
+    height: 600px;
+    margin-top: 200px;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6812652068126521) 100%, rgba(0,212,255,1) 100%);
+    top: 0;
+    position: fixed;
+}
+
+.playstation{
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 15px;
+    position: fixed;
+}
+
+a{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+
+}
+
+.link-whatssap{
+    height: 80px;
+
+}
+
+.botao-whatssap{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.criador{
+display: flex;
+align-items: center;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.formulario{
+    position: fixed;
+    top: 30%;
+    left: -280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    gap: 30px;
+    border: solid  rgb(245, 5, 5);
+    transition: left 1s ease-in-out;
+
+}
+
+.campos{
+    height: 35px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    outline-color: rgb(20, 20, 20);
+}
+
+textarea{
+    border-radius: 5px;
+    border:solid 2px gray;
+    outline-color: rgb(20, 20, 20);
+}
+
+.mascara-click{
+    position: fixed;
+    top: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6812652068126521) 100%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+    transition: visibility 1s ease-in-out;
+
+}
